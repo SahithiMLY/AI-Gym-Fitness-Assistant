@@ -463,7 +463,7 @@ if (squatStageRef.current === 'down') {
   onClick={async () => {
     try {
       const response = await fetch(
-        'http://127.0.0.1:8000/gym-recommendation',
+        'https://ai-gym-fitness-backend-9n7g.onrender.com/gym-recommendation',
         {
           method: 'POST',
           headers: {
@@ -605,7 +605,7 @@ if (squatStageRef.current === 'down') {
   onClick={async () => {
     try {
       const response = await fetch(
-        'http://127.0.0.1:8000/performance-analysis',
+        'https://ai-gym-fitness-backend-9n7g.onrender.com/performance-analysis',
         {
           method: 'POST',
           headers: {
@@ -747,7 +747,7 @@ if (activeModule === 'buddy') {
 
     try {
       const response = await fetch(
-        'http://127.0.0.1:8000/gym-buddy',
+        'https://ai-gym-fitness-backend-9n7g.onrender.com/gym-buddy',
         {
           method: 'POST',
           headers: {
@@ -887,7 +887,7 @@ if (activeModule === 'buddy') {
 
     try {
       const response = await fetch(
-        'http://127.0.0.1:8000/habit-tracker',
+        'https://ai-gym-fitness-backend-9n7g.onrender.com/habit-tracker',
         {
           method: 'POST',
           headers: {
@@ -1031,7 +1031,7 @@ if (activeModule === 'buddy') {
   onClick={async () => {
     try {
       const response = await fetch(
-        'http://127.0.0.1:8000/smart-gym',
+        'https://ai-gym-fitness-backend-9n7g.onrender.com/smart-gym',
         {
           method: 'POST',
           headers: {
@@ -1189,7 +1189,7 @@ if (activeModule === 'diet') {
 
     try {
       const response = await fetch(
-        'http://127.0.0.1:8000/diet-plan',
+        'https://ai-gym-fitness-backend-9n7g.onrender.com/diet-plan',
         {
           method: 'POST',
           headers: {
